@@ -1,0 +1,17 @@
+ 
+# Config with API keys — NEVER commit this
+config.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# AWS
+.aws/
+
+# Package directory
+lambda/package/
+lambda/lambda_function.zip
